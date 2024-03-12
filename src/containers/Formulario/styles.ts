@@ -11,6 +11,11 @@ export const Form = styled.form`
     resize: none;
     margin: 16px 0;
   }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Opcoes = styled.div`
