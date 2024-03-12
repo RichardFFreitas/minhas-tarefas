@@ -2,8 +2,11 @@ import styled from 'styled-components'
 
 export const Aside = styled.aside`
   padding: 16px;
-  background-color: #757575;
   height: 100vh;
+  display: flex;
+  @media (max-width: 768px) {
+    width: 90px;
+  }
 `
 
 export const Filtros = styled.div`
@@ -11,6 +14,11 @@ export const Filtros = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-gap: 8px;
   margin-top: 16px;
+
+  @media (max-width: 768px) {
+    display: none;
+    width: 90px;
+  }
 `
 export const Botao = styled.button`
   font-size: 32px;
@@ -19,7 +27,7 @@ export const Botao = styled.button`
   padding: 8px 12px;
   border: none;
   cursor: pointer;
-  background-color: #757575;
+  background-color: #080808;
   border-radius: 8px;
   margin-right: 8px;
 `
