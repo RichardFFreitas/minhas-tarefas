@@ -10,31 +10,10 @@ const initialState: TarefaState = {
   itens: [
     {
       id: 1,
-      descricao: 'Ler o Livro Código limpo',
+      descricao: 'Sua Tarefa Aqui',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'Leitura de código'
-    },
-    {
-      id: 2,
-      descricao: 'Ler Documentação Vuejs',
-      prioridade: enums.Prioridade.NORMAL,
-      status: enums.Status.PENDENTE,
-      titulo: 'Estudo front end'
-    },
-    {
-      id: 3,
-      descricao: 'Entender Algoritmos',
-      prioridade: enums.Prioridade.URGENTE,
-      status: enums.Status.PENDENTE,
-      titulo: 'Estudo computacional'
-    },
-    {
-      id: 4,
-      descricao: 'Ler o Livro Arquitetura Limpa',
-      prioridade: enums.Prioridade.URGENTE,
-      status: enums.Status.PENDENTE,
-      titulo: 'Leitura de arquitetura'
+      titulo: 'Escreva sua primeira tarefa'
     }
   ]
 }
